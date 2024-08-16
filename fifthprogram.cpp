@@ -1,6 +1,8 @@
-int main() {
-    int x;
+int add() {
+    int x, y;
     cout << "Type a number: ";
     cin>> x;
-    return 0;
+    cout << "Type another number: ";
+    cin>>y;
+    return x+y;
 }
